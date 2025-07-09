@@ -21,13 +21,12 @@ This project applies various supervised machine learning algorithms to predict s
   - `pandas`, `numpy`
   - `matplotlib`, `seaborn`
   - `scikit-learn`
+    
+## 📊 Dataset
 
-## 📊 Dataset Overview
+The dataset used in this project is available in this repository:
 
-- Features used:
-  - `Pclass`, `Sex`, `Age`, `SibSp`, `Parch`, `Fare`, `Embarked`
-- Target variable:
-  - `Survived` (0 = No, 1 = Yes)
+👉 [Dataset.csv](./train.csv)
 
 ## 🧪 Model Evaluation
 
