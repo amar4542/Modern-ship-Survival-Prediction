@@ -1,2 +1,44 @@
-# Titanic-Survival-Prediction
-Titanic Survival Prediction using Machine Learning Predicting passenger survival on the Titanic using Scikit-learn models like Logistic Regression, Decision Tree, KNN, and Random Forest. This project includes EDA, data cleaning, model evaluation, and feature importance analysis.
+# 🚢 Titanic Survival Prediction - Machine Learning Project
+
+This project applies various supervised machine learning algorithms to predict survival outcomes for passengers aboard the Titanic. The dataset is taken from [Kaggle's Titanic competition](https://www.kaggle.com/c/titanic/overview).
+
+## 📌 Project Objectives
+
+- Load and clean Titanic dataset
+- Handle missing values and encode categorical features
+- Train and evaluate multiple ML models:
+  - Logistic Regression
+  - Decision Tree
+  - K-Nearest Neighbors (KNN)
+  - Random Forest
+- Compare model performances using accuracy and classification reports
+- Visualize feature correlations and feature importance
+
+## 🧰 Tech Stack
+
+- **Language**: Python 3
+- **Libraries**:
+  - `pandas`, `numpy`
+  - `matplotlib`, `seaborn`
+  - `scikit-learn`
+
+## 📊 Dataset Overview
+
+- Features used:
+  - `Pclass`, `Sex`, `Age`, `SibSp`, `Parch`, `Fare`, `Embarked`
+- Target variable:
+  - `Survived` (0 = No, 1 = Yes)
+
+## 🧪 Model Evaluation
+
+Each model is evaluated using:
+- Accuracy score
+- Confusion matrix
+- Classification report
+
+## 📈 Visualizations
+
+- Heatmap of feature correlation
+- Pairplots for numeric features
+- Feature importance bar chart from Random Forest
+
