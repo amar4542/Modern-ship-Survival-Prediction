@@ -1,10 +1,10 @@
-# 🚢 Titanic Survival Prediction - Machine Learning Project
+# 🚢 Modern ship Survival Prediction - Machine Learning Project
 
 This project applies various supervised machine learning algorithms to predict survival outcomes for passengers aboard the Titanic. The dataset is taken from [Kaggle's Titanic competition](https://www.kaggle.com/c/titanic/overview).
 
 ## 📌 Project Objectives
 
-- Load and clean Titanic dataset
+- Load and clean modern ship dataset
 - Handle missing values and encode categorical features
 - Train and evaluate multiple ML models:
   - Logistic Regression
